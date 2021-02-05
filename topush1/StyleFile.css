@@ -1,0 +1,306 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-image: url(bg-pattern-bottom-desktop.svg );
+    background-image: url(bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    font-family:Spartan, sans-serif;
+    font-size: 15px;
+    width: 1250px;
+    height: 600px;
+
+}
+.container{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.heading{
+    color: rgb(83, 11, 83);
+    display:inline-block;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap; 
+}
+.heading p{
+    color: rgb(0, 0, 0);
+}
+.reviews{
+    
+float: inline-end;
+justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+
+}
+.rate1{
+background-color: hsla(304, 61%, 85%, 0.486);
+padding: 10px 4px ;
+font-size: 15px;
+border-radius: 6px;
+margin-bottom: 4px;
+width: 300px;
+height: 30px;
+
+
+}
+
+
+
+.rate2{
+    background-color: hsla(304, 61%, 85%, 0.486);
+    padding: 10px 10px ;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+   
+
+}
+.rate3{
+    background-color: hsla(304, 61%, 85%, 0.486);
+    padding: 10px 4px ;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    width: 300px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+    
+    
+
+.stars{
+    float: left;
+    align-content: center
+    
+}
+
+.textrate1{
+    align-content: center
+
+}
+.textrate2{
+    align-content: center
+
+}
+.textrate3{
+    align-content: center
+
+}
+
+
+
+
+
+.bottomof{
+
+    margin-top:;
+    margin-bottom: ;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.firstcard{
+
+    height:200px ;
+    width: 450px;
+    background-color: #511f50;
+    color: cornsilk;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 20px 20px ;
+    margin-top: 50px;
+    
+}
+.Secondcard{
+    
+    height:200px ;
+    width: 450px;
+    background-color: #511f50;
+    color: cornsilk;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 20px 20px ;
+    margin-top: 70px;
+
+}
+.Therdcard{
+   
+    height:200px ;
+    width: 450px;
+    background-color: #511f50;
+    color: cornsilk;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 20px 20px ;
+    margin-top: 90px;
+
+}
+
+
+.profil{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.profil img{
+    float: left;
+    border-radius: 100px;
+    margin-right: 10px;
+     width: 50px;
+     height: 50px;
+    
+}
+
+    
+ h6 { 
+        color: #faa5fa;
+     }
+   
+    .chat{
+        font-size: 10pt;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 20px;
+        
+
+    }
+    @media (max-width: 700px) {
+        body{
+            width: 50%;
+            background-image: url("bg-pattern-bottom-mobile.svg" );
+            background-image: url("bg-pattern-top-mobile.svg");
+            background-repeat: no-repeat;
+            font-family:Spartan, sans-serif;
+            font-size: 15px;}
+            
+
+        .container{
+                width: 90%;
+                height: 90%;
+                margin: auto;
+        }
+        .heading{
+            color: rgb(83, 11, 83);
+            display:block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: none;
+            margin-top: 70px;
+        }
+        .reviews{
+            float: none;
+            justify-content: space-between;
+                margin-top: 70px;
+        }
+        
+        .rate1{
+            background-color: hsla(304, 61%, 85%, 0.486);
+            padding: 10px 4px ;
+            font-size: 15px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+            width: 300px;
+            height: 30px;
+            margin-left: 0px;
+        }
+        .rate2{
+            background-color: hsla(304, 61%, 85%, 0.486);
+            padding: 10px 4px ;
+            font-size: 15px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+            width: 300px;
+            height: 30px;
+            margin-left: 0px;
+        }
+        .rate3{
+            background-color: hsla(304, 61%, 85%, 0.486);
+            padding: 10px 4px ;
+            font-size: 15px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+            width: 300px;
+            height: 30px;
+            margin-left: 0px;
+            
+            
+        }
+        .cards{
+            display: flex;
+            flex-direction: column;
+            
+            align-content: center;
+            margin-top: 10px;
+
+        }
+        .firstcard{
+
+            height:200px ;
+                width: 260px;
+            background-color: #511f50;
+            color: cornsilk;
+            margin-right: 50px;
+            border-radius: 10px;
+            padding: 20px 20px ;
+            margin-top: 50px;}
+            .Secondcard{
+
+                height:200px ;
+                width: 260px;
+                background-color: #511f50;
+                color: cornsilk;
+                margin-right: 50px;
+                border-radius: 10px;
+                padding: 20px 20px ;
+                margin-top: 50px;}
+            
+                .Therdcard{
+
+                    height:200px ;
+                width: 260px;
+                    background-color: #511f50;
+                    color: cornsilk;
+                    margin-right: 50px;
+                    border-radius: 10px;
+                    padding: 20px 20px ;
+                    margin-top: 50px;}
+                    .profil{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+                    }
+                    .chat{
+                        margin-top: 0px;
+
+                    }
+                    .profildetails h6{  
+                     margin: 30px;
+                     margin-top: 2px;
+                     margin-bottom: 0px;
+                    }
+                    .stars{
+                        float: none;
+                        align-content: center;
+                        margin-left:100px}
+                        .textrate3{
+                            margin-left: 60px;
+                        }
+                        .textrate2{
+                            margin-left: 60px;}
+                        .textrate4{
+                                margin-left: 60px;}
+                         .textrate1{
+                                    margin-left: 60px;}
